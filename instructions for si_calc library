@@ -1,0 +1,30 @@
+Developed by Gerald Danquah
+
+The interest library contains four functions which calculate simple interests, principal, rate and time.
+To install the library, use pip_install_interest
+After installation, the user must import the library using the syntax import_interest
+
+To use the simple interest function, use the syntax .simple_interest
+To use the principal function, use the syntax .principal
+To calculte for time, use the syntax .time
+To calculate for rate, use the syntax .rate
+
+For the function work, the user must follow the syntax print(si_calc.the function name(the_required_parameters)) to display the result of the function
+
+The parameters required for the simple interest funtion follow the order of principal, rate, time
+The values should be entered as integers.
+
+The parameters required for the principal function follow the the order of simple_interest, rate, time
+The values should be inputed as integers.
+
+The parameters required for the time function follow the order of simple_interest, principal, rate
+The values should be inputed as integers
+
+The parameters required for the rate function should follow the order of simple_interest, principal, time
+The values should be entered as integers
+
+Alternatively, the user can import the specific function needed from the library.
+To do this, the user myst use the syntax from_interests_import_the prefered function
+The user must then follow the syntax print(the_function_name(the the_required_parameters)) to display the result of the function
+The values should be inputed in the order stated in the above instruction
+The user also has the choice to use aliases when importing the library or individual functions from the library
